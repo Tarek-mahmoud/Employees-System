@@ -15,42 +15,34 @@ private:
     char gender;
 
 public:
-    // Getter for name
-    std::string getName() const {
+    string getName() const {
         return name;
     }
 
-    // Setter for name
     void setName(const std::string& newName) {
         name = newName;
     }
 
-    // Getter for age
     int getAge() const {
         return age;
     }
 
-    // Setter for age
     void setAge(int newAge) {
         age = newAge;
     }
 
-    // Getter for salary
     double getSalary() const {
         return salary;
     }
 
-    // Setter for salary
     void setSalary(double newSalary) {
         salary = newSalary;
     }
 
-    // Getter for gender
     char getGender() const {
         return gender;
     }
 
-    // Setter for gender
     void setGender(char newGender) {
         gender = newGender;
     }
